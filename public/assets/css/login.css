@@ -1,0 +1,209 @@
+:root {
+    --color-1: #B0B0B0;
+    --color-2: #E8DBF5;
+    --color-3: #FFFFFF;
+    --color-4: #9F80BE;
+
+}
+    
+/* [data-theme="dark"] {
+
+} */
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Poppins Italic";
+    src: url('../fonts/Poppins/Poppins-Italic.ttf');
+}
+
+@font-face {
+    font-family: "Kalam Bold";
+    src: url('../fonts/Kalam/Kalam-Bold.ttf');
+}
+
+html,
+body{
+    background: #0A0C10;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    display: flex;  
+    flex-direction: column;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    "card-logo card-form";
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100vh;
+    grid-gap: 0rem; 
+}
+
+@media screen and (max-width: 1200px) {
+    main{
+        grid-template-areas:
+        "card-form";
+        grid-template-columns: 100%;
+        grid-template-rows: 100vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main{
+        grid-template-areas:
+        "card-form";
+        grid-template-columns: 100%;
+        grid-template-rows: 100vh;
+    }
+}
+
+.card-logo{
+    grid-area: card-logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.card-form{
+    grid-area: card-form;
+    background: #0A0C10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.body-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+    background: #2F3A4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1{
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins Medium";
+    font-weight: bold;
+    color: var(--color-3);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text-2{
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins Medium";
+    font-weight: bold;
+    color: var(--color-1);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.text-3{
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins Regular";
+    color: var(--color-3);
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.text-4{
+    width: 100%;
+    text-align: center;
+    font-family: "Kalam Bold";
+    color: var(--color-3);
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.form-login{
+    width: 100%;
+    padding: 1rem 4rem;
+}
+
+.form-control:focus,
+.form-control{
+    border: 1px solid var(--color-3);
+    background: #272C35;
+    padding: 1rem 0.5rem;
+    box-shadow: none;
+    color: var(--color-3);
+    font-family: "Poppins Medium";
+}
+
+.input-group-text{
+    border: 1px solid var(--color-3);
+    background: #272C35;
+    padding: 1rem;
+    color: var(--color-3);
+}
+
+.btn-login{
+    width: 100%;
+    border: 1px solid #2F3A4C;
+    background: #2F3A4C;
+    color: #FFFFFF;
+    padding: 1rem;
+    font-family: "Poppins Medium";
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+.btn-login:hover{
+    background: #FFFFFF;
+    color: #2F3A4C;
+    border: 1px solid #2F3A4C;
+}
+
+.ahm-login{
+    width: 15rem;
+    margin-bottom: 5rem;
+}
+
+.text-copyright{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins Italic";
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+.logo-login{
+    width: 40rem;
+}
+
+.show-hide-pass{
+    cursor: pointer;
+    background: #272C35;
+    color: var(--color-2);
+}

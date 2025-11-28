@@ -1,0 +1,381 @@
+section {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 1rem 1.5rem;
+}
+
+.card-header {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    padding: 0.5rem;
+    /* display: flex;
+    justify-content: start; */
+}
+
+.card-header .tabs-header {
+    font-family: "Poppins Medium";
+    font-size: 1rem;
+    color: #BDBDBD;
+    background: transparent;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0rem
+}
+
+.card-header .tabs-header.active,
+.card-header .tabs-header:hover {
+    background: transparent;
+    color: #FF8E71;
+    border-color: transparent;
+    border-bottom: 2px solid #FF8E71;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    background: #12161D;
+    border: 1px solid #1F2632;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.gridtable tbody {
+    display: block;
+    max-height: 75vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+/* width */
+.gridtable tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.gridtable tbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.gridtable tbody::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.gridtable tbody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.gridtable thead,
+.gridtable tbody tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Poppins Regular";
+}
+
+.gridtable thead {
+    width: 100%;
+}
+
+.gridtable thead {
+    position: relative;
+    font-family: "Poppins Regular";
+    color: #FFFFFF;
+}
+
+.gridtable thead th:last-child:after {
+    display: none;
+}
+
+.gridtable tbody tr {
+    border-radius: 0.2rem;
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.gridtable tbody tr:nth-child(odd) {
+    background-color: #2F3A4C;
+}
+
+.gridtable thead tr th {
+    font-size: 0.9rem;
+}
+
+.gridtable tbody tr td {
+    padding: 0.2rem 8px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+.gridtable thead tr {
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable tbody tr:last-child {
+    margin-bottom: 5rem;
+}
+
+.gridtable thead tr th:last-child {
+    width: 1rem;
+}
+
+.gridtable thead tr th:first-child {
+    padding-left: 1rem;
+}
+
+.gridtable thead tr th:nth-child(1),
+.gridtable tbody tr td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(2),
+.gridtable tbody tr td:nth-child(2) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(3),
+.gridtable tbody tr td:nth-child(3) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(4),
+.gridtable tbody tr td:nth-child(4) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(5),
+.gridtable tbody tr td:nth-child(5) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(6),
+.gridtable tbody tr td:nth-child(6) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(7),
+.gridtable tbody tr td:nth-child(7) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(8),
+.gridtable tbody tr td:nth-child(8) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(9),
+.gridtable tbody tr td:nth-child(9) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(10),
+.gridtable tbody tr td:nth-child(10) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(11),
+.gridtable tbody tr td:nth-child(11) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(12),
+.gridtable tbody tr td:nth-child(12) {
+    width: 10%;
+    text-align: center;
+}
+
+.judul-menu {
+    font-family: "Poppins Medium";
+    font-size: 1.5rem;
+    margin: 0rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.judul-menu i {
+    content: url('../../icon/jdl-i-inspection-record.svg');
+    width: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.btn-icon-edit,
+.btn-icon-delete {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+.input-group.style-search {
+    max-width: 100%;
+}
+
+.card-header-input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: #607494;
+    font-family: "Poppins Medium";
+}
+
+/* .card-body-input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    background: #2F3A4C;
+} */
+
+.title-value{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: "Poppins Light";
+    margin-bottom: 1rem;
+}
+
+.form-value:focus,
+.form-value{
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    background: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    font-family: "Poppins Medium";
+    color: #FFFFFF;
+}
+
+.card-status{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.card-status.st-1{
+    background: #F38F33;
+}
+
+.card-status.st-1::after{
+    content: 'Waiting';
+    color: #FFFFFF;
+}
+
+.card-status.st-2{
+    background: #49A3E4;
+}
+
+.card-status.st-2::after{
+    content: 'In Progress';
+    color: #FFFFFF;
+}
+
+.card-status.st-3{
+    background: #6FEE6C;
+}
+
+.card-status.st-3::after{
+    content: 'Waiting Check QC';
+    color: #FFFFFF;
+}
+
+.card-header-input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: #2F3A4C;
+    font-family: "Poppins Medium";
+}
+
+.card-body-input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+dt{
+    font-family: "Poppins Medium";
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+dd{
+    font-family: "Poppins Italic";
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    margin-left: 2rem;
+}
+
+.card-preview-file{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #595E68;
+    background: #595E68;
+    display: flex;
+    align-items: center;
+}
+
+.btn-remove,
+.btn-remove:hover{
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 1px solid #2C2F34;
+    background: #2C2F34;
+    padding: 0rem;
+    margin-right: 0.5rem;
+}
+
+.card-info-file p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin: 0rem;
+    font-family: "Poppins Medium";
+}
+
+.card-info-file p:nth-child(2){
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    margin: 0rem;
+    font-family: "Poppins Light";
+}
+
+.thead-insp{
+    background: #607494;
+    color: #FFFFFF;
+    border-color: #1F2632;
+}
+
+.tbody-insp{ 
+    background: #2F3A4C;
+    color: #FFFFFF;
+    border-color: #1F2632;
+}

@@ -1,0 +1,335 @@
+section {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 1rem 1.5rem;
+}
+
+.card-header {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    padding: 0.5rem;
+    /* display: flex;
+    justify-content: start; */
+}
+
+.card-header .tabs-header {
+    font-family: "Poppins Medium";
+    font-size: 1rem;
+    color: #FFFFFF;
+    background: transparent;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0rem
+}
+
+.card-header .tabs-header.active,
+.card-header .tabs-header:hover {
+    background: transparent;
+    color: #FF8E71;
+    border-color: transparent;
+    border-bottom: 2px solid #FF8E71;
+}
+
+.card-body {
+    display: grid;
+    grid-template-areas:
+        "grid-list-machine grid-list-tool";
+    grid-template-columns: 55% 44.5%;
+    grid-template-rows: 85vh;
+    grid-gap: 1rem;
+}
+
+.grid-list-machine {
+    grid-area: grid-list-machine;
+    border-radius: 0.3rem;
+    background: #12161D;
+    border: 1px solid #1F2632;
+    padding: 0.5rem;
+}
+
+.grid-list-tool {
+    grid-area: grid-list-tool;
+    border-radius: 0.3rem;
+    background: #12161D;
+    border: 1px solid #1F2632;
+    padding: 0.5rem;
+}
+
+.gridtable tbody {
+    display: block;
+    max-height: 75vh;
+    overflow-y: auto;
+    padding-right: 1rem;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+/* width */
+.gridtable tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.gridtable tbody::-webkit-scrollbar-track {
+    background: #2F3A4C;
+}
+
+/* Handle */
+.gridtable tbody::-webkit-scrollbar-thumb {
+    background: #607494;
+}
+
+/* Handle on hover */
+.gridtable tbody::-webkit-scrollbar-thumb:hover {
+    background: #607494;
+}
+
+.gridtable thead,
+.gridtable tbody tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Poppins Regular";
+}
+
+.gridtable thead {
+    width: 100%;
+}
+
+.gridtable thead {
+    position: relative;
+    font-family: "Poppins Regular";
+    color: #FFFFFF;
+}
+
+.gridtable thead th:last-child:after {
+    display: none;
+}
+
+.gridtable tbody tr {
+    border-radius: 0rem;
+    border-bottom: 1px solid #2F3A4C;
+    cursor: pointer;
+}
+
+.gridtable tbody tr.active,
+.gridtable tbody tr:hover{
+    background: #2F3A4C;
+}
+
+/* .gridtable tbody tr:nth-child(even) {
+    background-color: transparent;
+}
+
+.gridtable tbody tr:nth-child(odd) {
+    background-color: #E8DBF5;
+} */
+
+.gridtable thead tr th {
+    font-size: 0.9rem;
+}
+
+.gridtable tbody tr td {
+    padding: 0.2rem 8px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+.gridtable thead tr {
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable tbody tr:last-child {
+    margin-bottom: 5rem;
+}
+
+.gridtable thead tr th:last-child {
+    width: 1rem;
+}
+
+.gridtable thead tr th:first-child {
+    padding-left: 1rem;
+}
+
+.gridtable thead tr th:nth-child(1),
+.gridtable tbody tr td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(2),
+.gridtable tbody tr td:nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(3),
+.gridtable tbody tr td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(4),
+.gridtable tbody tr td:nth-child(4) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(5),
+.gridtable tbody tr td:nth-child(5) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable thead tr th:nth-child(6),
+.gridtable tbody tr td:nth-child(6) {
+    width: 10%;
+    text-align: center;
+}
+
+.judul-menu {
+    font-family: "Poppins Medium";
+    font-size: 1.5rem;
+    margin: 0rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.judul-menu i {
+    content: url('../../icon/jdl-i-makermachine.svg');
+    width: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.btn-icon-edit,
+.btn-icon-delete {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+.input-group.style-search {
+    max-width: 100%;
+}
+
+
+.card-preview-file{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #595E68;
+    background: #595E68;
+    display: flex;
+    align-items: center;
+}
+
+.btn-remove,
+.btn-remove:hover{
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: 1px solid #2C2F34;
+    background: #2C2F34;
+    padding: 0rem;
+    margin-right: 0.5rem;
+}
+
+.card-info-file p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin: 0rem;
+    font-family: "Poppins Medium";
+}
+
+.card-info-file p:nth-child(2){
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    margin: 0rem;
+    font-family: "Poppins Light";
+}
+
+.table-assy-tool table thead{
+    width: 100%;
+    background: #2F3A4C;
+    color: #FFFFFF;
+    font-family: "Poppins Medium";
+}
+
+.table-assy-tool table thead tr th{
+    border: 1px solid #1F2632;
+    text-align: center;
+    padding: 1.2rem 0rem;
+    font-size: 0.9rem;
+}
+
+.table-assy-tool{
+    width: 100%;
+    height: 43.5rem;
+    margin-bottom: 0.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* width */
+.table-assy-tool::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.table-assy-tool::-webkit-scrollbar-track {
+    background: #2F3A4C;
+}
+
+/* Handle */
+.table-assy-tool::-webkit-scrollbar-thumb {
+    background: #607494;
+}
+
+/* Handle on hover */
+.table-assy-tool::-webkit-scrollbar-thumb:hover {
+    background: #607494;
+}
+
+.table-assy-tool table{
+    width: 100%;
+}
+
+.table-assy-tool table tbody{
+    width: 100%;
+    color: #FFFFFF;
+    font-family: "Poppins Medium";
+}
+
+.table-assy-tool table tbody tr.bg-1{
+    background: #475D82;
+}
+
+.table-assy-tool table tbody tr.bg-2{
+    background: #5F7292;
+}
+
+.table-assy-tool table tbody tr td{
+    border: 1px solid #1F2632;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    font-size: 0.8rem;
+}
+
+.floatThead-container{
+    text-align: center;
+    font-size: 0.9rem;
+    background: #2F3A4C;
+    color: #FFFFFF;
+    font-family: "Poppins Medium";
+    padding: 0.5rem;
+    /* border: 1px solid #1F2632; */
+}

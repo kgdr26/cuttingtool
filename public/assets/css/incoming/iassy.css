@@ -1,0 +1,580 @@
+section {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 1rem 1.5rem;
+}
+
+.card-header {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    padding: 0.5rem;
+    /* display: flex;
+    justify-content: start; */
+}
+
+.card-header .tabs-header {
+    font-family: "Poppins Medium";
+    font-size: 1rem;
+    color: #BDBDBD;
+    background: transparent;
+    padding: 0.2rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0rem
+}
+
+.card-header .tabs-header.active,
+.card-header .tabs-header:hover {
+    background: transparent;
+    color: #FF8E71;
+    border-color: transparent;
+    border-bottom: 2px solid #FF8E71;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    background: #12161D;
+    border: 1px solid #1F2632;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+
+.card-action{
+    width: 100%;
+    height: 5.5rem;
+    padding: 0.5rem;
+    border: 2px solid #1F2632;
+    background: #2F3A4C;
+    border-radius: 0.3rem;
+}
+
+.icon-qr-label{
+    content: url('../../icon/i-qr-label.svg');
+    width: 4rem;
+}
+
+.text-lale-qr{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    font-family: "Poppins Medium";
+}
+
+.form-control.qr-code{
+    background: #4C5B73;
+    border: 1px solid #4C5B73;
+}
+
+.card-image-machine{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+    background: #54637C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-machine img{
+    width: 60%;
+}
+
+.text-judul{
+    font-size: 1.2rem;
+    margin: 0rem;
+    color: #FFFFFF;
+    font-family: "Poppins Medium";
+}
+
+.text-count-to{
+    font-size: 1.2rem;
+    margin: 0rem;
+    color: #FFFFFF;
+    font-family: "Poppins Italic";
+}
+
+.gridtable-tool tbody {
+    display: block;
+    max-height: 11rem;
+    overflow-y: auto;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+.gridtable-tool table{
+    border-color: #1F2632;
+}
+
+/* width */
+.gridtable-tool tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.gridtable-tool tbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.gridtable-tool tbody::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.gridtable-tool tbody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.gridtable-tool thead,
+.gridtable-tool tbody tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Poppins Regular";
+}
+
+.gridtable-tool thead {
+    width: 100%;
+}
+
+.gridtable-tool thead {
+    position: relative;
+    font-family: "Poppins Regular";
+    color: #FFFFFF;
+    background: #607494;
+}
+
+.gridtable-tool thead th:last-child:after {
+    display: none;
+}
+
+.gridtable-tool tbody tr {
+    border-radius: 0.3rem;
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable-tool thead tr th {
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.gridtable-tool tbody tr td {
+    padding: 0.5rem 8px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    background: #2F3A4C;
+}
+
+.gridtable-tool thead tr {
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable-tool tbody tr:last-child {
+    margin-bottom: 5rem;
+}
+
+.gridtable-tool thead tr th:last-child {
+    width: 10px;
+    padding: 0rem;
+}
+
+/* .gridtable-tool thead tr th:first-child {
+    padding-left: 1rem;
+} */
+
+.gridtable-tool thead tr th:nth-child(1),
+.gridtable-tool tbody tr td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(2),
+.gridtable-tool tbody tr td:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(3),
+.gridtable-tool tbody tr td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(4),
+.gridtable-tool tbody tr td:nth-child(4) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(5),
+.gridtable-tool tbody tr td:nth-child(5) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(6),
+.gridtable-tool tbody tr td:nth-child(6) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(7),
+.gridtable-tool tbody tr td:nth-child(7) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(8),
+.gridtable-tool tbody tr td:nth-child(8) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable-tool thead tr th:nth-child(9),
+.gridtable-tool tbody tr td:nth-child(9) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable-holder tbody {
+    display: block;
+    max-height: 4rem;
+    overflow-y: hidden;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+.gridtable-holder table{
+    border-color: #1F2632;
+}
+
+/* width */
+.gridtable-holder tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.gridtable-holder tbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.gridtable-holder tbody::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.gridtable-holder tbody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.gridtable-holder thead,
+.gridtable-holder tbody tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Poppins Regular";
+}
+
+.gridtable-holder thead {
+    width: 100%;
+}
+
+.gridtable-holder thead {
+    position: relative;
+    font-family: "Poppins Regular";
+    color: #FFFFFF;
+    background: #607494;
+}
+
+.gridtable-holder thead th:last-child:after {
+    display: none;
+}
+
+.gridtable-holder tbody tr {
+    border-radius: 0.3rem;
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable-holder thead tr th {
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.gridtable-holder tbody tr td {
+    padding: 0.5rem 8px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    background: #2F3A4C;
+}
+
+.gridtable-holder thead tr {
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable-holder tbody tr:last-child {
+    margin-bottom: 5rem;
+}
+
+.gridtable-holder thead tr th:last-child {
+    width: 10px;
+    padding: 0rem;
+    display: none;
+}
+
+/* .gridtable-holder thead tr th:first-child {
+    padding-left: 1rem;
+} */
+
+.gridtable-holder thead tr th:nth-child(1),
+.gridtable-holder tbody tr td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(2),
+.gridtable-holder tbody tr td:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(3),
+.gridtable-holder tbody tr td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(4),
+.gridtable-holder tbody tr td:nth-child(4) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(5),
+.gridtable-holder tbody tr td:nth-child(5) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(6),
+.gridtable-holder tbody tr td:nth-child(6) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(7),
+.gridtable-holder tbody tr td:nth-child(7) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable-holder thead tr th:nth-child(8),
+.gridtable-holder tbody tr td:nth-child(8) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable-accesories tbody {
+    display: block;
+    max-height: 12rem;
+    overflow-y: auto;
+}
+
+.table>:not(:first-child) {
+    border-top: none !important;
+}
+
+.gridtable-accesories table{
+    border-color: #1F2632;
+}
+
+/* width */
+.gridtable-accesories tbody::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.gridtable-accesories tbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.gridtable-accesories tbody::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.gridtable-accesories tbody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.gridtable-accesories thead,
+.gridtable-accesories tbody tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    font-family: "Poppins Regular";
+}
+
+.gridtable-accesories thead {
+    width: 100%;
+}
+
+.gridtable-accesories thead {
+    position: relative;
+    font-family: "Poppins Regular";
+    color: #FFFFFF;
+    background: #607494;
+}
+
+.gridtable-accesories thead th:last-child:after {
+    display: none;
+}
+
+.gridtable-accesories tbody tr {
+    border-radius: 0.3rem;
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable-accesories thead tr th {
+    font-size: 0.9rem;
+    vertical-align: middle;
+}
+
+.gridtable-accesories tbody tr td {
+    padding: 0.5rem 8px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    background: #2F3A4C;
+}
+
+.gridtable-accesories thead tr {
+    border-bottom: 1px solid transparent;
+}
+
+.gridtable-accesories tbody tr:last-child {
+    margin-bottom: 5rem;
+}
+
+.gridtable-accesories thead tr th:last-child {
+    width: 10px;
+    padding: 0rem;
+}
+
+/* .gridtable-accesories thead tr th:first-child {
+    padding-left: 1rem;
+} */
+
+.gridtable-accesories thead tr th:nth-child(1),
+.gridtable-accesories tbody tr td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(2),
+.gridtable-accesories tbody tr td:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(3),
+.gridtable-accesories tbody tr td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(4),
+.gridtable-accesories tbody tr td:nth-child(4) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(5),
+.gridtable-accesories tbody tr td:nth-child(5) {
+    width: 15%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(6),
+.gridtable-accesories tbody tr td:nth-child(6) {
+    width: 10%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(7),
+.gridtable-accesories tbody tr td:nth-child(7) {
+    width: 20%;
+    text-align: center;
+}
+
+.gridtable-accesories thead tr th:nth-child(8),
+.gridtable-accesories tbody tr td:nth-child(8) {
+    width: 5%;
+    text-align: center;
+}
+
+td .input-group .input-group-text{
+    background: #607494;
+    border-color: #607494;
+    cursor: pointer;
+}
+
+td .input-group .form-control{
+    background: #4D5B73;
+    border-color: #4D5B73;
+}
+
+
+td .bi-check-circle-fill{
+    color: #22D81F;
+    font-size: 1.3rem;
+}
+
+
+td .bi-x-circle-fill{
+    color: #F33333;
+    font-size: 1.3rem;
+}
+
+.card-header-input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background: #2F3A4C;
+    font-family: "Poppins Medium";
+}
+
+.card-body-input{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+dt{
+    font-family: "Poppins Medium";
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+dd{
+    font-family: "Poppins Italic";
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
+
+.qr-show{
+    width: 10rem;
+    margin: 1rem 0rem;
+}
